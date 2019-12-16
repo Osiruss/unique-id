@@ -1,14 +1,14 @@
 <?php
 /**
- * Unique ID plugin for Craft CMS 3.x
+ * unique-id plugin for Craft CMS 3.x
  *
- * Set a unique ID
+ * Create a unique id
  *
  * @link      https://github.com/russell-kitchen
  * @copyright Copyright (c) 2019 russell-kitchen
  */
 
-namespace russell-kitchen\uniqueid;
+namespace russellkitchen\uniqueid;
 
 
 use Craft;
@@ -29,20 +29,20 @@ use yii\base\Event;
  * https://craftcms.com/docs/plugins/introduction
  *
  * @author    russell-kitchen
- * @package   UniqueId
+ * @package   Uniqueid
  * @since     1.0.0
  *
  */
-class UniqueId extends Plugin
+class Uniqueid extends Plugin
 {
     // Static Properties
     // =========================================================================
 
     /**
      * Static property that is an instance of this plugin class so that it can be accessed via
-     * UniqueId::$plugin
+     * Uniqueid::$plugin
      *
-     * @var UniqueId
+     * @var Uniqueid
      */
     public static $plugin;
 
@@ -61,7 +61,7 @@ class UniqueId extends Plugin
 
     /**
      * Set our $plugin static property to this class so that it can be accessed via
-     * UniqueId::$plugin
+     * Uniqueid::$plugin
      *
      * Called after the plugin class is instantiated; do any one-time initialization
      * here such as hooks and events.
@@ -112,6 +112,13 @@ class UniqueId extends Plugin
             ),
             __METHOD__
         );
+    }
+
+    public function addTwigExtension()
+    {
+        Craft::import('plugins.myplugin.twigextensions.myTwigExtension');
+
+        return new UniqueIdTwigExtension();
     }
 
     // Protected Methods

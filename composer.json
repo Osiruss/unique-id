@@ -1,6 +1,6 @@
 {
-    "name": "russell-kitchen/unique-id",
-    "description": "Set a unique ID",
+    "name": "russellkitchen/unique-id",
+    "description": "Create a unique id",
     "type": "craft-plugin",
     "version": "1.0.0",
     "keywords": [
@@ -8,7 +8,7 @@
         "cms",
         "craftcms",
         "craft-plugin",
-        "unique id"
+        "unique-id"
     ],
     "support": {
         "docs": "https://github.com/russell-kitchen/unique-id/blob/master/README.md",
@@ -26,15 +26,15 @@
     },
     "autoload": {
         "psr-4": {
-          "russell-kitchen\\unique-id\\": "src/"
+          "russellkitchen\\uniqueid\\": "src/"
         }
     },
     "extra": {
-        "name": "Unique ID",
+        "name": "unique-id",
         "handle": "unique-id",
         "hasCpSettings": false,
         "hasCpSection": false,
         "changelogUrl": "https://raw.githubusercontent.com/russell-kitchen/unique-id/master/CHANGELOG.md",
-        "class": "russell-kitchen\\unique-id\\UniqueId"
+        "class": "russellkitchen\\uniqueid\\Uniqueid"
     }
 }

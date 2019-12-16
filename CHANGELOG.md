@@ -1,4 +1,4 @@
-# Unique ID Changelog
+# unique-id Changelog
 
 All notable changes to this project will be documented in this file.
 

@@ -1,6 +1,6 @@
-# Unique ID plugin for Craft CMS 3.x
+# unique-id plugin for Craft CMS 3.x
 
-Set a unique ID
+Create a unique id
 
 ![Screenshot](resources/img/plugin-logo.png)
 
@@ -20,25 +20,24 @@ To install the plugin, follow these instructions.
 
         composer require russell-kitchen/unique-id
 
-3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Unique ID.
+3. In the Control Panel, go to Settings → Plugins and click the “Install” button for unique-id.
 
-## Unique ID Overview
-
--Insert text here-
-
-## Configuring Unique ID
+## unique-id Overview
 
 -Insert text here-
 
-## Using Unique ID
+## Configuring unique-id
 
 -Insert text here-
 
-## Unique ID Roadmap
+## Using unique-id
+
+-Insert text here-
+
+## unique-id Roadmap
 
 Some things to do, and ideas for potential features:
 
 * Release it
 
 Brought to you by [russell-kitchen](https://github.com/russell-kitchen)
-# unique-id
