@@ -1,0 +1,40 @@
+{
+    "name": "osiruss/unique-id",
+    "description": "Set a unique ID",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "unique id"
+    ],
+    "support": {
+        "docs": "https://github.com/osiruss/unique-id/blob/master/README.md",
+        "issues": "https://github.com/osiruss/unique-id/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "osiruss",
+            "homepage": "https://github.com/Osiruss"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1"
+    },
+    "autoload": {
+        "psr-4": {
+          "osiruss\\uniqueid\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Unique ID",
+        "handle": "unique-id",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/osiruss/unique-id/master/CHANGELOG.md",
+        "class": "osiruss\\uniqueid\\UniqueId"
+    }
+}
