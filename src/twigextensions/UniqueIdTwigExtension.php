@@ -45,4 +45,3 @@ class UniqueIdTwigExtension extends \Twig_Extension implements \Twig_Extension_G
         return $id;
     }
 }
-}
