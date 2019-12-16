@@ -18,7 +18,7 @@ To install the plugin, follow these instructions.
 
 2. Then tell Composer to load the plugin:
 
-        composer require osiruss/unique-id
+        composer require russell-kitchen/unique-id
 
 3. In the Control Panel, go to Settings → Plugins and click the “Install” button for Unique ID.
 
@@ -40,5 +40,5 @@ Some things to do, and ideas for potential features:
 
 * Release it
 
-Brought to you by [osiruss](https://github.com/Osiruss)
+Brought to you by [russell-kitchen](https://github.com/russell-kitchen)
 # unique-id

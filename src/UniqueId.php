@@ -4,11 +4,11 @@
  *
  * Set a unique ID
  *
- * @link      https://github.com/Osiruss
- * @copyright Copyright (c) 2019 osiruss
+ * @link      https://github.com/russell-kitchen
+ * @copyright Copyright (c) 2019 russell-kitchen
  */
 
-namespace osiruss\uniqueid;
+namespace russell-kitchen\uniqueid;
 
 
 use Craft;
@@ -28,7 +28,7 @@ use yii\base\Event;
  *
  * https://craftcms.com/docs/plugins/introduction
  *
- * @author    osiruss
+ * @author    russell-kitchen
  * @package   UniqueId
  * @since     1.0.0
  *

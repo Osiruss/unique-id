@@ -1,5 +1,5 @@
 {
-    "name": "Osiruss/unique-id",
+    "name": "russell-kitchen/unique-id",
     "description": "Set a unique ID",
     "type": "craft-plugin",
     "version": "1.0.0",
@@ -11,14 +11,14 @@
         "unique id"
     ],
     "support": {
-        "docs": "https://github.com/Osiruss/unique-id/blob/master/README.md",
-        "issues": "https://github.com/Osiruss/unique-id/issues"
+        "docs": "https://github.com/russell-kitchen/unique-id/blob/master/README.md",
+        "issues": "https://github.com/russell-kitchen/unique-id/issues"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "Osiruss",
-            "homepage": "https://github.com/Osiruss"
+            "name": "russell-kitchen",
+            "homepage": "https://github.com/russell-kitchen"
         }
     ],
     "require": {
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-          "Osiruss\\uniqueid\\": "src/"
+          "russell-kitchen\\uniqueid\\": "src/"
         }
     },
     "extra": {
@@ -34,7 +34,7 @@
         "handle": "unique-id",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/Osiruss/unique-id/master/CHANGELOG.md",
-        "class": "Osiruss\\uniqueid\\UniqueId"
+        "changelogUrl": "https://raw.githubusercontent.com/russell-kitchen/unique-id/master/CHANGELOG.md",
+        "class": "russell-kitchen\\uniqueid\\UniqueId"
     }
 }

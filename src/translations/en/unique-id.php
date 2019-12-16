@@ -4,8 +4,8 @@
  *
  * Set a unique ID
  *
- * @link      https://github.com/Osiruss
- * @copyright Copyright (c) 2019 osiruss
+ * @link      https://github.com/russell-kitchen
+ * @copyright Copyright (c) 2019 russell-kitchen
  */
 
 /**
@@ -16,7 +16,7 @@
  *
  * http://www.yiiframework.com/doc-2.0/guide-tutorial-i18n.html
  *
- * @author    osiruss
+ * @author    russell-kitchen
  * @package   UniqueId
  * @since     1.0.0
  */
