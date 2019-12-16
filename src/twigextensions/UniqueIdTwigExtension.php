@@ -3,7 +3,7 @@
  * UniqueId
  *
  * @link      https://github.com/russell-kitchen
- * @copyright Copyright (c) 2019 russell-kitchen
+ * @copyright https://craftcms.stackexchange.com/questions/29628/give-included-twig-component-unique-id/29629#29629
  */
 namespace russellkitchen\uniqueid\twigextensions;
 use russellkitchen\uniqueid\UniqueId;
