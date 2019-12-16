@@ -114,6 +114,7 @@ class Uniqueid extends Plugin
         );
     }
 
+
     public function addTwigExtension()
     {
         Craft::import('plugins.myplugin.twigextensions.myTwigExtension');
