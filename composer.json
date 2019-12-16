@@ -1,5 +1,5 @@
 {
-    "name": "osiruss/unique-id",
+    "name": "Osiruss/unique-id",
     "description": "Set a unique ID",
     "type": "craft-plugin",
     "version": "1.0.0",
@@ -11,13 +11,13 @@
         "unique id"
     ],
     "support": {
-        "docs": "https://github.com/osiruss/unique-id/blob/master/README.md",
-        "issues": "https://github.com/osiruss/unique-id/issues"
+        "docs": "https://github.com/Osiruss/unique-id/blob/master/README.md",
+        "issues": "https://github.com/Osiruss/unique-id/issues"
     },
     "license": "MIT",
     "authors": [
         {
-            "name": "osiruss",
+            "name": "Osiruss",
             "homepage": "https://github.com/Osiruss"
         }
     ],
@@ -26,7 +26,7 @@
     },
     "autoload": {
         "psr-4": {
-          "osiruss\\uniqueid\\": "src/"
+          "Osiruss\\uniqueid\\": "src/"
         }
     },
     "extra": {
@@ -34,7 +34,7 @@
         "handle": "unique-id",
         "hasCpSettings": false,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/osiruss/unique-id/master/CHANGELOG.md",
-        "class": "osiruss\\uniqueid\\UniqueId"
+        "changelogUrl": "https://raw.githubusercontent.com/Osiruss/unique-id/master/CHANGELOG.md",
+        "class": "Osiruss\\uniqueid\\UniqueId"
     }
 }
