@@ -2,7 +2,6 @@
     "name": "russellkitchen/unique-id",
     "description": "Create a unique id",
     "type": "craft-plugin",
-    "version": "1.0.0",
     "keywords": [
         "craft",
         "cms",
