@@ -6,6 +6,7 @@
  * @copyright https://craftcms.stackexchange.com/questions/29628/give-included-twig-component-unique-id/29629#29629
  */
 namespace russellkitchen\uniqueid\twigextensions;
+
 use russellkitchen\uniqueid\UniqueId;
 use Craft;
 use Twig_Function;
